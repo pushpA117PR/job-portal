@@ -25,6 +25,20 @@
       "password": "123",
       "confirmPassword": "123",
       "role": "provider"
+    },
+    {
+      "id": "d339",
+      "email": "provider@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "role": "seeker"
+    },
+    {
+      "id": "2e3c",
+      "email": "seeker@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "role": "provider"
     }
   ],
   "jobs": [
@@ -64,6 +78,15 @@
       "jobCompany": "Wipro",
       "jobLocation": "Chennai",
       "seekerId": "08dd"
+    },
+    {
+      "id": "cb10",
+      "jobId": "9426",
+      "jobTitle": "Backend Developer",
+      "jobCompany": "HCL",
+      "jobLocation": "Bengalure",
+      "seekerId": "08dd",
+      "providerId": "9247"
     }
   ]
 }

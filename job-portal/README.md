@@ -1,47 +1,75 @@
 # Job Portal Application
 
-A role-based Job Portal web application built using **React**, **Tailwind CSS**, and **JSON Server**.  
-The application allows job providers to manage job postings and job seekers to search, apply, and track job applications.
+A role-based job portal built using **React**, **Tailwind CSS**, and **JSON Server**.  
+This project demonstrates a full-stack-like front-end application with role-based functionality, job posting, applying, and tracking features.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 👤 Authentication & Roles
-- Role-based access: **Job Provider** and **Job Seeker**
-- Protected routes using React Router
-- Context API for authentication state
-
-### 🧑‍💼 Job Provider
-- Post new jobs
-- Update existing jobs
-- Delete job postings
-- View applicants for posted jobs
-
-### 👨‍💻 Job Seeker
-- View available jobs
-- Search jobs by title or company
-- Filter jobs by location
-- Apply for jobs
-- Withdraw job applications
-- Track applied job status
-
-### 🎨 UI
-- Responsive design
-- Clean and modern UI using Tailwind CSS
+- **Role-Based Access**
+  - **Job Provider:** Can post, update, and delete jobs.
+  - **Job Seeker:** Can browse jobs, apply, and withdraw applications.
+- **Job Management**
+  - Post new jobs (title, company, location)
+  - Edit and delete jobs (providers only)
+- **Job Search & Filter**
+  - Search jobs by title or company
+  - Filter jobs by location
+- **Job Applications**
+  - Apply for a job
+  - Withdraw an application
+  - Track application status
+- **User Authentication**
+  - Login & Register
+  - Role-based route protection
+- **Responsive UI**
+  - Clean and modern design using Tailwind CSS
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- **React**
-- **React Router**
-- **Context API**
-- **Tailwind CSS**
-- **JSON Server**
+- **Frontend:** React, React Router, Tailwind CSS
+- **Backend:** JSON Server (mock backend)
+- **Version Control:** Git, GitHub
 
 ---
 
-## 🔐 Demo Accounts
+## Demo Accounts
 
 ### Job Provider
+- Email: `provider@gmail.com`  
+- Password: `1234`
+
+### Job Seeker
+- Email: `seeker@gmail.com`  
+- Password: `1234`
+
+---
+
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Jobs Page (Provider)
+![Jobs Provider](screenshots/jobs-provider.png)
+
+### Jobs Page (Seeker)
+![Jobs Seeker](screenshots/jobs-seeker.png)
+
+### Applied Jobs
+![Applied Jobs](Screenshots/AppliedJobs.png)
+
+### Post Job Form
+![Post Job](Screenshots/PostJobs.png)
+
+
+
+## How to Run Locally
+
+1. Clone the repository:
+```bash
+git clone https://github.com/<pushpA117PR>/job-portal.git
+cd job-portal
