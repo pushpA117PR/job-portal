@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "08dd",
+      "email": "Naidu@gmail.com",
+      "password": "cherry",
+      "role": "seeker"
+    },
+    {
+      "id": "8e40",
+      "email": "Manasvi@gmail.com",
+      "password": "123",
+      "role": "provider"
+    },
+    {
+      "id": "705e",
+      "email": "suchi@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "role": "seeker"
+    },
+    {
+      "id": "9247",
+      "email": "deepu@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "role": "provider"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "6382",
+      "title": "PYTHON DEVELOOER",
+      "company": "Wipro",
+      "location": "Chennai"
+    },
+    {
+      "id": "9426",
+      "title": "Backend Developer",
+      "company": "HCL",
+      "location": "Bengalure",
+      "providerId": "9247"
+    },
+    {
+      "id": "f379",
+      "title": "SAP ",
+      "company": "accenture",
+      "location": "Mumbai",
+      "providerId": "8e40"
+    },
+    {
+      "id": "4913",
+      "title": "React Developer",
+      "company": "DIATOZ",
+      "location": "bengalure",
+      "providerId": "8e40"
+    }
+  ],
+  "appliedJobs": [
+    {
+      "id": "5c55",
+      "jobId": "6382",
+      "jobTitle": "PYTHON DEVELOOER",
+      "jobCompany": "Wipro",
+      "jobLocation": "Chennai",
+      "seekerId": "08dd"
+    }
+  ]
+}
